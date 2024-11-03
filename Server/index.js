@@ -50,7 +50,7 @@ app.post('/login', (req, res) => {
             return res.json({ loginStatus: false, Error: "Wrong email or password" });
         }
     });
-});
+});1234
 // Add this to your Express server code
 
 app.post('/signin', (req, res) => {
